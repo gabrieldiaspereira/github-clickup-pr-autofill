@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR Helper",
+  "version": "0.1",
+  "description": "Preenche automaticamente no Pull Request do GitHub os dados da task do ClickUp baseando no nome da branch.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/compare/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
