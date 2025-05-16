@@ -10,4 +10,5 @@ It's a simple task, but I was tired of doing it manually.
 - Go to your browser's extensions, you can access it in something like `your-browser-name://extensions/`
 replacing your-browser-name, for example if you use brave it would be `brave://extensions/`.
 - Activate developer mode.
-- Click on "Upload without compression" and select the repository folder.
+- Click on "Upload without compression" and select the repository folder.<br>
+Now you can create your PR and it will be filled in automatically :)
